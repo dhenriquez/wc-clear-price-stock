@@ -42,7 +42,7 @@ class WC_Clear_Price_Stock {
         }
     }
 
-    private function fn_menu_clear_offer_price() {
+    public function fn_menu_clear_offer_price() {
         echo '<div class="wrap">';
         $plugin = get_plugin_data( __FILE__ );
         echo "<h1>Clear Offer Price <small>" . $plugin['Version'] . "</small></h1>";
@@ -101,7 +101,7 @@ class WC_Clear_Price_Stock {
         echo '</div>';
     }
 
-    private function fn_menu_clear_regular_price() {
+    public function fn_menu_clear_regular_price() {
         echo '<div class="wrap">';
         $plugin = get_plugin_data( __FILE__ );
         echo "<h1>Clear Regular Price <small>" . $plugin['Version'] . "</small></h1>";
@@ -158,7 +158,7 @@ class WC_Clear_Price_Stock {
         echo '</div>';
     }
 
-    private function fn_menu_clear_stock() {
+    public function fn_menu_clear_stock() {
         echo '<div class="wrap">';
         $plugin = get_plugin_data( __FILE__ );
         echo "<h1>Clear Stock <small>" . $plugin['Version'] . "</small></h1>";
@@ -215,7 +215,7 @@ class WC_Clear_Price_Stock {
         echo '</div>';
     }
 
-    private function fn_menu_log() {
+    public function fn_menu_log() {
         $plugin = get_plugin_data( __FILE__ );
         $debug = cmb2_get_option( 'wccps_options', 'debug_text_wccps', false);
         echo '<div class="wrap">';
