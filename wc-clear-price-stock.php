@@ -5,7 +5,7 @@
  * Plugin URI: https://github.com/dhenriquez/wc-clear-price-stock
  * Author: Daniel Henriquez Sandoval
  * Author URI: https://dhenriquez.cl
- * Version: 1.0.0
+ * Version: 1.0.1
  * WC requires at least: 4.0.0
  * WC tested up to: 4.2.0
  */
